@@ -1,0 +1,18 @@
+td, th {
+    padding: 16px;
+}
+
+p {
+    font-size: 13px;
+}
+.center-block {
+    text-align: center;
+}
+
+.footer-line {
+    max-width: 520px;
+}
+.copyright {
+    margin-top: 30px;
+}
+
