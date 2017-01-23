@@ -1,6 +1,5 @@
 <?php
 $pagename = "Fitkost";
-
 ?>
 
 <!DOCTYPE html>
