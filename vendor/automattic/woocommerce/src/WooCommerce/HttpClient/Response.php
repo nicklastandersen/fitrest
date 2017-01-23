@@ -69,6 +69,7 @@ class Response
     public function setHeaders($headers)
     {
         $this->headers = $headers;
+
     }
 
     /**

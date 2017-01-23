@@ -18,6 +18,7 @@ use Automattic\WooCommerce\HttpClient\HttpClient;
 class Client
 {
 
+
     /**
      * WooCommerce REST API Client version.
      */
@@ -80,6 +81,7 @@ class Client
     public function get($endpoint, $parameters = [])
     {
         return $this->http->request($endpoint, 'GET', [], $parameters);
+
     }
 
     /**
