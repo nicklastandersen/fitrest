@@ -35,7 +35,7 @@ $array = $woocommerce->get('orders?per_page=100');
         <td><?php echo $order['id']?></td>
         <td><?php echo $order['status']?></td>
         <td><?php echo $order['line_items'][0]['quantity']?> <br> <?php echo $order['line_items'][1]['quantity']?></td>
-        <td><?php echo $order['line_items'][0]['name']?> <br> <?php echo $order['line_items'][1]['name']?> <br> <?php echo $order['line_items'][0]['meta'][0]['value'] ?></td>
+        <td><?php echo $order['line_items'][0]['name']?> <br> <?php echo $order['line_items'][1]['name']?></td>
         <td><?php echo $order['line_items'][0]['meta'][0]['value'] ?> <br> <?php echo $order['line_items'][1]['meta'][0]['value'] ?></td>
         <td><?php echo $order['line_items'][0]['meta'][1]['value'] ?> <br> <?php echo $order['line_items'][1]['meta'][1]['value'] ?></td>
         <td><?php echo $order['customer_note']?></td>
