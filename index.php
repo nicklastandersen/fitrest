@@ -4,7 +4,7 @@
 
 require __DIR__ . '/config.php';
 
-$array = $woocommerce->get('orders?per_page=100');
+$array = $woocommerce->get('orders?per_page=100&status=completed');
 
 
 ?>
