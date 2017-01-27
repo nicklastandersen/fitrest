@@ -19,6 +19,7 @@ $array = $woocommerce->get('orders?per_page=100&status=completed');
         <th>Produkter</th>
         <th>Svin</th>
         <th>Fisk</th>
+        <th>Køn (Børn)</th>
         <th>Noter</th>
         <th>Fornavn</th>
         <th>Efternavn</th>
@@ -38,6 +39,7 @@ $array = $woocommerce->get('orders?per_page=100&status=completed');
         <td><?php echo $order['line_items'][0]['name']?> <br> <?php echo $order['line_items'][1]['name']?></td>
         <td><?php echo $order['line_items'][0]['meta'][0]['value'] ?> <br> <?php echo $order['line_items'][1]['meta'][0]['value'] ?></td>
         <td><?php echo $order['line_items'][0]['meta'][1]['value'] ?> <br> <?php echo $order['line_items'][1]['meta'][1]['value'] ?></td>
+        <td><?php echo $order['line_items'][0]['meta'][2]['value'] ?></td>
         <td><?php echo $order['customer_note']?></td>
         <td><?php echo $order['shipping']['first_name']?></td>
         <td><?php echo $order['shipping']['last_name']?></td>
